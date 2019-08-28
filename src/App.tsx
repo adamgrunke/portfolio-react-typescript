@@ -1,19 +1,15 @@
 import React from 'react';
 import './App.css';
-import AboutMe from './components/AboutMe';
-
-import ContactMe from './components/ContactMe'
+import MyDetails from './components/MyDetails';
 import AllApps from './components/AllApps';
+
 const App: React.FC = () => {
   return (
     <div className="App">
-      <AboutMe/>
       <hr/>
+      <MyDetails/>
       <AllApps/>
       <hr/>
-      <ContactMe/>
-  
-
     </div>
   );
 }
