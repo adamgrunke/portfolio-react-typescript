@@ -9,7 +9,6 @@ const SkillsCollection: React.FC = () => {
             <p> Express |   CSS |   HTML    |   Embedded Javascript (EJS)   |   Node.js   </p> 
             <p>Django	|   SQL |   Sequelize   |   PostgreSQL  |   Mongoose    |   MongoDB</p>
             <p>Git  |   GitHub  |   Heroku </p>            
-
         </div>
     );
 }
