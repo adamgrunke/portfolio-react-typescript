@@ -5,9 +5,10 @@ const SkillsCollection: React.FC = () => {
 
     return(
         <div>
-            <p>SKILLS <span className="fas fa-camera"></span></p>
-            {/* <i class="fab fa-react"></i> */}
-            
+            <p>Javascript (JS)  |   React (hooks)   |   Typescript (TS)</p> 
+            <p> Express |   CSS |   HTML    |   Embedded Javascript (EJS)   |   Node.js   </p> 
+            <p>Django	|   SQL |   Sequelize   |   PostgreSQL  |   Mongoose    |   MongoDB</p>
+            <p>Git  |   GitHub  |   Heroku </p>            
 
         </div>
     );
