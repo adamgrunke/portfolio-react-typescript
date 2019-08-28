@@ -34,3 +34,7 @@
     transform: rotate(360deg);
   }
 }
+
+.app-image {
+  width: 30%;
+}

@@ -1,25 +1,17 @@
 import React from 'react';
 import './App.css';
 import AboutMe from './components/AboutMe';
-import SkillsCollection from './components/SkillsCollection';
-import Spiffy from './components/Spiffy';
-import RainCheck from './components/RainCheck';
-import CleanUp from './components/CleanUp';
-import Checkers from './components/Checkers'
+
+import ContactMe from './components/ContactMe'
+import AllApps from './components/AllApps';
 const App: React.FC = () => {
   return (
     <div className="App">
       <AboutMe/>
       <hr/>
-      <SkillsCollection/>
+      <AllApps/>
       <hr/>
-      <Spiffy/>
-      <hr/>
-      <RainCheck/>
-      <hr/>
-      <CleanUp/>
-      <hr/>
-      <Checkers/>
+      <ContactMe/>
   
 
     </div>
