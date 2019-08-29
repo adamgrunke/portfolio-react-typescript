@@ -1,8 +1,7 @@
-* {
-  background-color: #555
-}
 .App {
   text-align: center;
+  background-color: #555
+
 }
 
 .App-logo {
@@ -35,6 +34,3 @@
   }
 }
 
-.app-image {
-  width: 30%;
-}

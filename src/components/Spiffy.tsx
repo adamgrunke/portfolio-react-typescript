@@ -1,5 +1,7 @@
 import React from 'react';
 import spiffyImg from '../img/spiffy.png';
+// import '../style';
+
 
 const Spiffy: React.FC = () => {
 
