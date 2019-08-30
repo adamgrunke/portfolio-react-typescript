@@ -8,7 +8,6 @@ const AllApps: React.FC = () => {
 
     return(
         <div>
-            
             <Spiffy/>
             <hr/>
             <RainCheck/>

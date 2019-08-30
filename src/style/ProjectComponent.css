@@ -1,5 +1,8 @@
-.webapp {
+.container {
+    display: flex;
     border: 3px solid lawngreen;
+    width: 70%;
+    
 }
 
 .app-image {
