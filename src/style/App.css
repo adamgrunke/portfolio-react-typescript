@@ -1,35 +1,50 @@
+html .App {
+  background-color: #555;
+  margin: 0 auto;
+
+}
+
 .App {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  /* background: #161415 url(../img/backgrounds/forest.jpg) no-repeat top center; */
+  background: url(../img/backgrounds/beach-wall.JPG) no-repeat top center;
+  /* background: url(../img/backgrounds/beach-birds.JPG) no-repeat top center; */
+  /* background: url(../img/backgrounds/forest.JPG) no-repeat top center; */
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.mydetails {
+  position: fixed;
+  grid-column: 1;
+  height: 100vh;
+  /* border: 1px solid magenta; */
+}
+
+.all-projects {
+  position: relative;
+  grid-column: 2;
+  /* border: 1px solid salmon; */
   text-align: center;
-  background-color: #555
-
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+
+.project-container {
+  /* border: 1px solid lawngreen; */
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.app-image {
+  width: 90%;
+  opacity: .9;
 }
 
-.App-link {
-  color: #61dafb;
+.about-me {
+  /* border: 1px solid gold; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+

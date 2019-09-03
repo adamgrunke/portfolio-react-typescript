@@ -6,10 +6,8 @@ import AllApps from './components/AllApps';
 const App: React.FC = () => {
   return (
     <div className="App">
-      <hr/>
       <MyDetails/>
       <AllApps/>
-      <hr/>
     </div>
   );
 }

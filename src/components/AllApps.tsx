@@ -2,12 +2,13 @@ import React from 'react';
 import Spiffy from './Spiffy';
 import RainCheck from './RainCheck';
 import CleanUp from './CleanUp';
-import Checkers from './Checkers'
+import Checkers from './Checkers';
+import '../style/App.css';
 
 const AllApps: React.FC = () => {
 
     return(
-        <div>
+        <div className="all-projects">
             <Spiffy/>
             <hr/>
             <RainCheck/>

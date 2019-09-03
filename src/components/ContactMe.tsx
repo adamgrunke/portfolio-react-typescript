@@ -1,4 +1,6 @@
 import React from 'react';
+import '../style/App.css';
+
 
 const ContactMe: React.FC = () => {
 

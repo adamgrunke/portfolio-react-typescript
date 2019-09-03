@@ -2,15 +2,17 @@ import React from 'react';
 import AboutMe from './AboutMe';
 import ContactMe from './ContactMe'
 import SkillsCollection from './SkillsCollection';
+import '../style/App.css';
 
 const MyDetails: React.FC = () => {
 
     return(
-        <div>
+        <div className="mydetails">
             <AboutMe/>
-            <ContactMe/>
             <hr/>
             <SkillsCollection/>
+            <hr/>
+            <ContactMe/>
         </div>
     );
 }
