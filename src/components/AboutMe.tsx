@@ -7,7 +7,7 @@ const AboutMe: React.FC = () => {
     return (
         <div className='about-me'>
             <h1>ACG</h1>
-            <p>about me...</p>
+            <h3>From wildlife conservation & renewable energy to web development.</h3>
         </div>
     );
     }

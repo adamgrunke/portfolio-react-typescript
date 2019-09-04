@@ -1,35 +1,47 @@
+html {
+  background-color: #666 !important;
+
+}
+
 html .App {
   background-color: #555;
   margin: 0 auto;
-
 }
 
 .App {
   display: grid;
   grid-template-columns: 50% 50%;
   /* background: #161415 url(../img/backgrounds/forest.jpg) no-repeat top center; */
-  background: url(../img/backgrounds/beach-wall.JPG) no-repeat top center;
+  /* background: url(../img/backgrounds/beach-wall.JPG) no-repeat top center; */
   /* background: url(../img/backgrounds/beach-birds.JPG) no-repeat top center; */
-  /* background: url(../img/backgrounds/forest.JPG) no-repeat top center; */
+  background: url(../img/backgrounds/forest.JPG) no-repeat top center;
   background-size: cover;
   background-attachment: fixed;
+  background-blend-mode: overlay;
 
 }
 
 .mydetails {
   position: fixed;
+  color: #DFE;
   grid-column: 1;
   height: 100vh;
+  width: 50%;
+  /* background: url(../img/backgrounds/beach-wall.JPG) no-repeat top center; */
+  /* background: url(../img/backgrounds/forest.JPG) no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed; */
+  text-align: center;
   /* border: 1px solid magenta; */
 }
 
 .all-projects {
   position: relative;
   grid-column: 2;
+  color: #DFE;
   /* border: 1px solid salmon; */
   text-align: center;
 }
-
 
 .project-container {
   /* border: 1px solid lawngreen; */
@@ -45,6 +57,10 @@ html .App {
   /* border: 1px solid gold; */
 }
 
+a {
+  color: mediumspringgreen;
+}
 
-
-
+a:active {
+  color: yellow;
+}
