@@ -2,13 +2,13 @@ import React from 'react';
 import '../style/App.css';
 
 
-const Header: React.FC = () => {
+const Footer: React.FC = () => {
     
     return (
         <div>
-            <h1>Header</h1>
+            <h4>Footer</h4>
         </div>
     );
     }
 
-    export default Header;
+    export default Footer;

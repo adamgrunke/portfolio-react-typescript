@@ -6,7 +6,7 @@ import '../style/App.css';
 const CleanUp: React.FC = () => {
 
     return(
-        <div className="project-container">
+        <div>
             <h4>CleanUp</h4>
             <a href="https://warm-oasis-21230.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                 <img className="app-image" src={cleanUpImg} alt="cleanup"></img>

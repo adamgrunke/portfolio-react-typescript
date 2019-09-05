@@ -5,7 +5,7 @@ import '../style/App.css';
 const AboutMe: React.FC = () => {
     
     return (
-        <div className='about-me'>
+        <div>
             <h1>Adam Grunke</h1>
             <h3>From wildlife conservation & renewable energy to web development.</h3>
         </div>

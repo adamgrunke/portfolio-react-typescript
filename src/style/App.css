@@ -1,64 +1,92 @@
 html {
-  background-color: #666 !important;
+  background-color: #666 ;
 
 }
 
-.App {
+.container {
+  border: 3px solid salmon;
   margin: 0 auto;
   display: grid;
-  grid-template-rows: 20% 30% 50%;
-
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 20vh repeat(3, 1fr) 50px;
+  gap: 20px;
 }
 
 .header {
+  border: 3px solid royalblue;
     /* background: url(../img/backgrounds/beach-birds.JPG) no-repeat top center; */
-    background: url(../img/backgrounds/forest.JPG) no-repeat top center;
-    background-size: cover;
-    background-attachment: fixed;
-    /* height: 20vh; */
-    width: 100%;
-    position: fixed;
-    grid-row: 1;
-
+    /* background: url(../img/backgrounds/forest.JPG) no-repeat top center; */
+    /* background-size: cover; */
+    /* background-attachment: fixed; */
+    /* position: fixed; */
+    grid-column: 1/4;
+    grid-row: 1/2;
+    position: sticky;
+    top: 0;
 }
 
 .body {
-  background: url(../img/backgrounds/beach-birds.JPG) no-repeat top center;
-
+  /* border: 3px solid hotpink; */
+  /* background: url(../img/backgrounds/beach-birds.JPG) no-repeat top center; */
   /* background: url(../img/backgrounds/forest.JPG) no-repeat top center; */
-  background-size: cover;
-  background-attachment: fixed;
-  background-blend-mode: overlay;
+  /* background-size: cover; */
+  /* background-attachment: fixed; */
+  /* background-blend-mode: overlay; */
   
 }
 
-.mydetails {
-  color: #DFE;
-  grid-row: 2;
-  /* height: 80vh; */
-  position: relative;
-  text-align: center;
-
+.footer {
+  border: 1px solid aqua;
+  grid-column: 1/4;
+  grid-row: 5/6;
 }
 
-.all-projects {
+.mydetails {
+  border: 3px solid orange;
+  grid-column: 1/2;
+  grid-row: 2/5;
   color: #DFE;
-  grid-column: 1;
-  position: relative;
+  text-align: center;
+}
+
+.skills {
+  border: 3px solid khaki;
+  grid-column: 2/4;
+  grid-row: 2/3;
+}
+
+.projects {
+  border: 3px solid mediumspringgreen;
+  grid-column: 2/4;
+  grid-row: 3/5;
+  /* grid-template-columns: repeat(auto-fit, minmax(50px, 100px)); */
+  /* grid-template-rows: repeat(auto-fit); */
+  color: #DFE;
+  /* position: relative; */
   text-align: center;
 }
 
 .project-container {
-  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.proj {
+  border: 3px dashed yellow;
+
 }
 
 .app-image {
-  width: 90%;
+  width: 80%;
+  height: 80%;
   opacity: .9;
 }
 
 .about-me {
+  border: 3px solid red;
 }
+
 
 a {
   color: mediumspringgreen;

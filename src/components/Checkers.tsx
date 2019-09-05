@@ -7,7 +7,7 @@ import '../style/App.css';
 const Checkers: React.FC = () => {
 
     return(
-        <div className="project-container">
+        <div>
             <h4>Checkers</h4>
             <a href="https://adamgrunke.github.io/checkers/" target="_blank" rel="noopener noreferrer">
                 <img className="app-image" src={checkerImg} alt="checkers"></img>
