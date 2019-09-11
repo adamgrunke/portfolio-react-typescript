@@ -1,6 +1,6 @@
 import React from 'react';
 import './style/App.css';
-import MyDetails from './components/MyDetails';
+// import MyDetails from './components/MyDetails';
 import Projects from './components/Projects';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -14,7 +14,7 @@ const App: React.FC = () => {
         <Header/>
       </div>
       <div className="mydetails">
-        <MyDetails/>
+        {/* <MyDetails/> */}
       </div>
       <div className="skills">
         <SkillsCollection/>

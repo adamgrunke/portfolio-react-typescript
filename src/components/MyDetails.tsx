@@ -1,6 +1,6 @@
 import React from 'react';
-import AboutMe from './AboutMe';
-import ContactMe from './ContactMe'
+// import AboutMe from './AboutMe';
+// import ContactMe from './ContactMe'
 import '../style/App.css';
 
 const MyDetails: React.FC = () => {
@@ -8,11 +8,11 @@ const MyDetails: React.FC = () => {
     return(
         <div>
             <div>
-                <AboutMe/>
+                {/* <AboutMe/> */}
             </div>
-            <hr/>
+            {/* <hr/> */}
             <div>
-                <ContactMe/>
+                {/* <ContactMe/> */}
             </div>
         </div>
     );
