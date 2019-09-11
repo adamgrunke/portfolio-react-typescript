@@ -10,6 +10,13 @@ html {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 20vh repeat(3, 1fr) 50px;
   gap: 20px;
+
+  /* border: 3px solid hotpink; */
+  background: url(../img/backgrounds/beach-birds.JPG) no-repeat top center;
+  /* background: url(../img/backgrounds/forest.JPG) no-repeat top center; */
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: overlay;
 }
 
 .header {
@@ -23,17 +30,15 @@ html {
     grid-row: 1/2;
     position: sticky;
     top: 0;
+
+    /* border: 3px solid hotpink; */
+  /* background: url(../img/backgrounds/beach-birds.JPG) no-repeat top center; */
+  background: url(../img/backgrounds/forest.JPG) no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: overlay;
 }
 
-.body {
-  /* border: 3px solid hotpink; */
-  /* background: url(../img/backgrounds/beach-birds.JPG) no-repeat top center; */
-  /* background: url(../img/backgrounds/forest.JPG) no-repeat top center; */
-  /* background-size: cover; */
-  /* background-attachment: fixed; */
-  /* background-blend-mode: overlay; */
-  
-}
 
 .footer {
   border: 1px solid aqua;
@@ -73,7 +78,7 @@ html {
 }
 
 .proj {
-  border: 3px dashed yellow;
+  border: 1px dashed yellow;
 
 }
 
@@ -87,6 +92,9 @@ html {
   border: 3px solid red;
 }
 
+.contactme {
+
+}
 
 a {
   color: mediumspringgreen;
