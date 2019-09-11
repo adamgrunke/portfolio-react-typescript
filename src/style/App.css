@@ -1,14 +1,13 @@
+/* ============================================================== */
 /* SCREEN SIZE INDEPENDENT */
+/* ============================================================== */
+
 a {
   color: mediumspringgreen;
 }
 
 a:active, a:hover {
   color: yellow;
-}
-
-.contact-me-links {
-  padding: 0 10px;
 }
 
 .skillsList {
@@ -19,10 +18,26 @@ a:active, a:hover {
   color: #DFE;
 }
 
+.header {
+  background: url(../img/backgrounds/beach-wall.JPG) no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+  /* background-blend-mode: overlay; */
+}
 
-/* Screen Size Larger than 600px */
+.footer {
+  background: url(../img//backgrounds/beach-birds.JPG) no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* ============================================================== */
+/* Screen Size Greater than 600px */
+/* ============================================================== */
+
 html {
   background-color: #666 ;
+  
 }
 
 .container {
@@ -41,25 +56,40 @@ html {
 
 .mydetails {
   grid-column: 1/2;
-  grid-row: 2/5;
+  grid-row: 2/3;
   color: #DFE;
   text-align: center;
+}
+
+.contact-me-links {
+  padding: 0 5px;
 }
 
 .skills {
   grid-column: 2/4;
   grid-row: 2/3;
+  text-align: center;
+
 }
 
 .projects {
-  grid-column: 2/4;
+  grid-column: 1/4;
   grid-row: 3/5;
   text-align: center;
+}
+
+.proj-font-size {
+  font-size: 1em;
+}
+.fa-size {
+  font-size: 10em;
 }
 
 .footer {
   grid-column: 1/4;
   grid-row: 5/6;
+  position: sticky;
+  bottom: 0;
 }
 
 .project-container {
@@ -68,7 +98,9 @@ html {
   grid-template-rows: 1fr 1fr;
 }
 
-
+/* ============================================================== */
+/* Screen Size Less than 600px */
+/* ============================================================== */
 @media only screen and (max-width: 600px) {
   
   body {
@@ -96,6 +128,10 @@ html {
     text-align: center;
   }
 
+  .contact-me-links {
+    padding: 0 10px;
+  }
+
   .skills {
     grid-column: 1/2;
     grid-row: 3/4;
@@ -113,6 +149,14 @@ html {
     grid-template-rows: repeat(4, 1fr);
   }
 
+  .proj-font-size {
+    font-size: 2em;
+  }
+
+  .fa-size {
+    font-size: 20em;
+  }
+
   .footer {
     grid-column: 1/2;
     grid-row: 6/7;
@@ -123,9 +167,10 @@ html {
 
 }
 
-
+/* ============================================================== */
 /* BORDERS FOR TESTING */
-.container {
+/* ============================================================== */
+/* .container {
   border: 3px solid salmon;  
 }
 .header {
@@ -145,4 +190,4 @@ html {
 }
 .proj {
   border: 1px dashed yellow;
-}
+} */
