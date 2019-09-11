@@ -7,11 +7,11 @@ const MyDetails: React.FC = () => {
 
     return(
         <div>
-            <div className="aboutme">
+            <div>
                 <AboutMe/>
             </div>
             <hr/>
-            <div className="contactme">
+            <div>
                 <ContactMe/>
             </div>
         </div>

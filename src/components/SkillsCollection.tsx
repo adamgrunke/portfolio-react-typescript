@@ -13,10 +13,11 @@ const SkillsCollection: React.FC = () => {
             <i className="fab fa-html5 fa-5x"></i>
             <i className="fab fa-node-js fa-5x"></i>
             {/* <i className="fab fa-js fa-5x"></i> */}
-            
-            <p> Typescript (TS) |   Express    |   Embedded Javascript (EJS)</p> 
-            <p>Django	|   SQL |   Sequelize   |   PostgreSQL  |   Mongoose    |   MongoDB </p>
-            <p>Git  |   GitHub  |   Heroku </p>            
+            <div className="skillsList">
+                <p> Typescript (TS) |   Express    |   Embedded Javascript (EJS)</p> 
+                <p>Django	|   SQL |   Sequelize   |   PostgreSQL  |   Mongoose    |   MongoDB </p>
+                <p>Git  |   GitHub  |   Heroku </p>            
+            </div>
         </div>
     );
 }

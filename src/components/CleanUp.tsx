@@ -1,5 +1,5 @@
 import React from 'react';
-import cleanUpImg from '../img/cleanup.png';
+// import cleanUpImg from '../img/cleanup.png';
 import '../style/App.css';
 
 
@@ -9,7 +9,7 @@ const CleanUp: React.FC = () => {
         <div>
             <h4>CleanUp</h4>
             <a href="https://warm-oasis-21230.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                <img className="app-image" src={cleanUpImg} alt="cleanup"></img>
+                <i className="projects fas fa-syringe fa-10x"></i>
             </a>
         </div>
     );

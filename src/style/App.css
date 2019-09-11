@@ -1,59 +1,45 @@
+/* SCREEN SIZE INDEPENDENT */
+a {
+  color: mediumspringgreen;
+}
+
+a:active, a:hover {
+  color: yellow;
+}
+
+.contact-me-links {
+  padding: 0 10px;
+}
+
+.skillsList {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.projects .fab, .projects .fas {
+  color: #DFE;
+}
+
+
+/* Screen Size Larger than 600px */
 html {
   background-color: #666 ;
-
 }
 
 .container {
-  border: 3px solid salmon;
-  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 20vh repeat(3, 1fr) 50px;
-  gap: 20px;
-
-  /* border: 3px solid hotpink; */
-  background: url(../img/backgrounds/beach-birds.JPG) no-repeat top center;
-  /* background: url(../img/backgrounds/forest.JPG) no-repeat top center; */
-  background-size: cover;
-  background-attachment: fixed;
-  background-blend-mode: overlay;
+  gap: 5px;
 }
 
 .header {
-  border: 3px solid royalblue;
-    /* background: url(../img/backgrounds/beach-birds.JPG) no-repeat top center; */
-    /* background: url(../img/backgrounds/forest.JPG) no-repeat top center; */
-    /* background-size: cover; */
-    /* background-attachment: fixed; */
-    /* position: fixed; */
-    grid-column: 1/4;
-    grid-row: 1/2;
-    position: sticky;
-    top: 0;
-
-    /* border: 3px solid hotpink; */
-  /* background: url(../img/backgrounds/beach-birds.JPG) no-repeat top center; */
-  background: url(../img/backgrounds/forest.JPG) no-repeat top center;
-  background-size: cover;
-  background-attachment: fixed;
-  background-blend-mode: overlay;
-}
-
-.fa-html5 {
-  content: "\f13b";
-}
-
-.fa-5x {
-  font-size: 5em;
-}
-.footer {
-  border: 1px solid aqua;
   grid-column: 1/4;
-  grid-row: 5/6;
+  grid-row: 1/2;
+  position: sticky;
+  top: 0;
 }
 
 .mydetails {
-  border: 3px solid orange;
   grid-column: 1/2;
   grid-row: 2/5;
   color: #DFE;
@@ -61,20 +47,19 @@ html {
 }
 
 .skills {
-  border: 3px solid khaki;
   grid-column: 2/4;
   grid-row: 2/3;
 }
 
 .projects {
-  border: 3px solid mediumspringgreen;
   grid-column: 2/4;
   grid-row: 3/5;
-  /* grid-template-columns: repeat(auto-fit, minmax(50px, 100px)); */
-  /* grid-template-rows: repeat(auto-fit); */
-  color: #DFE;
-  /* position: relative; */
   text-align: center;
+}
+
+.footer {
+  grid-column: 1/4;
+  grid-row: 5/6;
 }
 
 .project-container {
@@ -83,29 +68,81 @@ html {
   grid-template-rows: 1fr 1fr;
 }
 
+
+@media only screen and (max-width: 600px) {
+  
+  body {
+    background-color: limegreen;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 30vh 40vh 1fr 1fr 5vh;
+    gap: 5px;
+  }
+  
+  .header {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    position: sticky;
+    top: 0;
+    background-color: red;
+  }
+
+  .mydetails {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    color: #DFE;
+    text-align: center;
+  }
+
+  .skills {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+
+  .projects {
+    grid-column: 1/2;
+    grid-row: 4/6;
+    text-align: center;
+  }
+
+  .project-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .footer {
+    grid-column: 1/2;
+    grid-row: 6/7;
+    position: sticky;
+    bottom: 0;
+    background-color: blue;
+    }
+
+}
+
+
+/* BORDERS FOR TESTING */
+.container {
+  border: 3px solid salmon;  
+}
+.header {
+  border: 3px solid royalblue;
+}
+.footer {
+  border: 1px solid aqua;
+}
+.mydetails {
+  border: 3px solid orange;
+}
+.projects {
+  border: 3px solid mediumspringgreen;
+}
+.skills {
+  border: 3px solid khaki;
+}
 .proj {
   border: 1px dashed yellow;
-
-}
-
-.app-image {
-  width: 80%;
-  height: 80%;
-  opacity: .9;
-}
-
-.about-me {
-  border: 3px solid red;
-}
-
-.contactme {
-
-}
-
-a {
-  color: mediumspringgreen;
-}
-
-a:active {
-  color: yellow;
 }
