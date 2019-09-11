@@ -39,7 +39,13 @@ html {
   background-blend-mode: overlay;
 }
 
+.fa-html5 {
+  content: "\f13b";
+}
 
+.fa-5x {
+  font-size: 5em;
+}
 .footer {
   border: 1px solid aqua;
   grid-column: 1/4;
