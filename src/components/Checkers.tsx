@@ -1,5 +1,5 @@
 import React from 'react';
-import checkerImg from '../img/checkers.png';
+// import checkerImg from '../img/checkers.png';
 import '../style/App.css';
 
 
@@ -7,10 +7,10 @@ import '../style/App.css';
 const Checkers: React.FC = () => {
 
     return(
-        <div className="project-container">
-            <h4>Checkers</h4>
+        <div>
+            <h4 className="proj-font-size">Checkers</h4>
             <a href="https://adamgrunke.github.io/checkers/" target="_blank" rel="noopener noreferrer">
-                <img className="app-image" src={checkerImg} alt="checkers"></img>
+            <i className="projects fas fa-chess-board fa-size"></i>
             </a>            
         </div>
     );
