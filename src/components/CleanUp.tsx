@@ -9,7 +9,7 @@ const CleanUp: React.FC = () => {
         <div>
             <h4 className="proj-font-size">CleanUp</h4>
             <a href="https://warm-oasis-21230.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                <i className="projects fas fa-syringe fa-size"></i>
+                <i className="projects fas fa-broom fa-size"></i>
             </a>
         </div>
     );
