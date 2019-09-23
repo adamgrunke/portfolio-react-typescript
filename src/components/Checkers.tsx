@@ -8,7 +8,7 @@ const Checkers: React.FC = () => {
 
     return(
         <div>
-            <h4 className="proj-font-size">Checkers</h4>
+            <h4 className="proj-title">Checkers</h4>
             <a href="https://adamgrunke.github.io/checkers/" target="_blank" rel="noopener noreferrer">
             <i className="projects fas fa-chess-board fa-size"></i>
             </a>            

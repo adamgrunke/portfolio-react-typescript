@@ -7,7 +7,7 @@ const Spiffy: React.FC = () => {
 
     return(
         <div>
-            <h4 className="proj-font-size">Spiffy</h4>
+            <h4 className="proj-title">Spiffy</h4>
             <a href="https://afternoon-shore-37936.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                 <i className="projects fab fa-spotify fa-size"></i>
             </a>
