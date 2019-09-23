@@ -96,8 +96,9 @@ a:active, a:hover {
   text-align: center;
 }
 
-.proj-font-size {
+.proj-title {
   font-size: 1em;
+  color: #DFE
 }
 
 .skill-font-size {
@@ -168,7 +169,7 @@ a:active, a:hover {
     grid-template-rows: repeat(4, 1fr);
   }
 
-  .proj-font-size {
+  .proj-title {
     font-size: 2em;
   }
 

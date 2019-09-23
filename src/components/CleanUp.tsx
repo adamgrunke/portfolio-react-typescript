@@ -7,7 +7,7 @@ const CleanUp: React.FC = () => {
 
     return(
         <div>
-            <h4 className="proj-font-size">CleanUp</h4>
+            <h4 className="proj-title">CleanUp</h4>
             <a href="https://warm-oasis-21230.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                 <i className="projects fas fa-broom fa-size"></i>
             </a>
