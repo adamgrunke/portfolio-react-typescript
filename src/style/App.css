@@ -60,7 +60,7 @@ a:active, a:hover {
 .container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 280px 270px 1fr 1fr 5vh;
+  grid-template-rows: 180px 270px 1fr 1fr 5vh;
   gap: 5px;
 }
 
@@ -98,6 +98,10 @@ a:active, a:hover {
 
 .proj-font-size {
   font-size: 1em;
+}
+
+.skill-font-size {
+  font-size: 5em;
 }
 .fa-size {
   font-size: 13em;
@@ -182,16 +186,16 @@ a:active, a:hover {
 
 }
 
-@media  screen and (orientation: landscape ) and (max-height: 300px){
+@media  screen and (orientation: landscape ) and (min-height: 600px){
   .container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 40px 250px 40vh 1fr 5vh;
+    grid-template-rows: 230px 280px 40vh 1fr 5vh;
     gap: 5px;
   }
 
   .skills {
-    background-color: orange;
+    background-color: #48522F80;
   }
 }
 
