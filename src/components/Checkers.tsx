@@ -6,7 +6,8 @@ const Checkers: React.FC = () => {
 
     function openCheckersApp(e: React.MouseEvent): void {
         e.preventDefault()
-        const url: string = "https://adamgrunke.github.io/checkers/"
+        // const url: string = "https://adamgrunke.github.io/checkers/"
+        const url: string = "https://www.linkedin.com/in/adamgrunke/"
         window.open(url, 'blank')
     }
 

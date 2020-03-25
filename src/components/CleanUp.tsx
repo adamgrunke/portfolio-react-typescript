@@ -5,7 +5,8 @@ const CleanUp: React.FC = () => {
     
     function openCleanUpApp(e: React.MouseEvent): void {
         e.preventDefault()
-        const url: string = "https://warm-oasis-21230.herokuapp.com/"
+        // const url: string = "https://warm-oasis-21230.herokuapp.com/"
+        const url: string = "https://www.linkedin.com/in/adamgrunke/"
         window.open(url, 'blank')
     }
     return(

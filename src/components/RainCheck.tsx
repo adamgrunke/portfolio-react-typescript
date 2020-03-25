@@ -5,7 +5,8 @@ const RainCheck: React.FC = () => {
 
     function openRainCheckApp(e: React.MouseEvent): void {
         e.preventDefault()
-        const url: string = "https://fathomless-temple-87598.herokuapp.com"
+        // const url: string = "https://fathomless-temple-87598.herokuapp.com"
+        const url: string = "https://www.linkedin.com/in/adamgrunke/"
         window.open(url, 'blank')
     }
 
