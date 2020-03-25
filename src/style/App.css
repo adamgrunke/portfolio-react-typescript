@@ -1,35 +1,229 @@
-.App {
-  text-align: center;
-  background-color: #555
-
+/* ============================================================== */
+/* SCREEN SIZE INDEPENDENT */
+/* ============================================================== */
+html {
+  background-color: mediumspringgreen ;
+  background: url(../img/backgrounds/alain-rieder-0StnTQlRw-0-unsplash.jpg) no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+  /* Photo by Alain Rieder on Unsplash */
+  
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+a {
+  /* color: mediumspringgreen; */
+  color: #2D1E2E;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+a:active, a:hover {
+  color: yellow;
+}
+
+.contact-me-links {
+  padding: 0 30px;
+}
+
+.skillsList {
+  font-family: 'Open Sans Condensed', sans-serif;
   color: white;
+  /* color: #2D1E2E; */
 }
 
-.App-link {
-  color: #61dafb;
+.projects .fab, .projects .fas {
+  color: #DFE !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.header {
+  color: #DFE;
+  text-align: center;
+  background: url(../img/backgrounds/alain-rieder-0StnTQlRw-0-unsplash.jpg) no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 10;
+}
+
+.about-me {
+  text-shadow: -1px 0 #777, 0 1px #777, 1px 0 #777, 0 -1px #777;
+
+}
+
+.footer {
+  /* background: url(../img//backgrounds/beach-birds.JPG) no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed; */
+}
+
+/* ============================================================== */
+/* Screen Size Greater than 600px */
+/* ============================================================== */
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 180px 270px 1fr 1fr 5vh;
+  gap: 5px;
+}
+
+.header {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  position: sticky;
+  top: 0;
+}
+
+.mydetails {
+  /* grid-column: 1/2; */
+  /* grid-row: 2/3; */
+  color: #DFE;
+  text-align: center;
+}
+
+.skills {
+  grid-column: 1/3;
+  grid-row: 2/3;
+  text-align: center;
+  /* background-color: #777; */
+  /* background-color: #2D1E2E; */
+  background-color: #48522F80;
+  opacity: 50%;
+
+
+}
+
+.projects {
+  grid-column: 1/4;
+  grid-row: 3/5;
+  text-align: center;
+}
+
+.proj-title {
+  font-size: 1em;
+  color: #DFE
+}
+
+.skill-font-size {
+  font-size: 5em;
+}
+.fa-size {
+  font-size: 13em;
+}
+
+.footer {
+  grid-column: 1/4;
+  grid-row: 5/6;
+  /* position: sticky; */
+  bottom: 0;
+  text-align: center;
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+/* ============================================================== */
+/* Screen Size Less than 600px  */
+/* ============================================================== */
+@media only screen and (max-width: 600px) {
+  
+  /* body {
+    background-color: limegreen;
+  } */
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 260px 1fr 1fr 5vh;
+    gap: 5px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .header {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    position: sticky;
+    top: 0;
+  }
+
+  .mydetails {
+    /* grid-column: 1/2;
+    grid-row: 2/3; */
+    color: #DFE;
+    text-align: center;
+  }
+
+
+  .skills {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .projects {
+    grid-column: 1/2;
+    grid-row: 3/5;
+    text-align: center;
+  }
+
+  .project-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .proj-title {
+    font-size: 2em;
+  }
+
+  .fa-size {
+    font-size: 20em;
+  }
+
+  .footer {
+    grid-column: 1/2;
+    grid-row: 5/6;
+    /* position: sticky; */
+    bottom: 0;
+    /* background-color: blue; */
+    }
+
+}
+
+@media  screen and (orientation: landscape ) and (min-height: 600px){
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 230px 280px 40vh 1fr 5vh;
+    gap: 5px;
+  }
+
+  .skills {
+    background-color: #48522F80;
   }
 }
+<<<<<<< HEAD
+=======
+
+/* ============================================================== */
+/* BORDERS FOR TESTING */
+/* ============================================================== */
+/* .container {
+  border: 3px solid salmon;  
+}
+.header {
+  border: 3px solid royalblue;
+}
+.footer {
+  border: 1px solid aqua;
+}
+.mydetails {
+  border: 3px solid orange;
+}
+.projects {
+  border: 3px solid mediumspringgreen;
+}
+.skills {
+  border: 3px solid khaki;
+}
+.proj {
+  border: 1px dashed yellow;
+} */
+>>>>>>> 5f0bd0a377f5bc60769c08af7ec513670816c098

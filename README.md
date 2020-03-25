@@ -42,3 +42,19 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+Portfolio Project
+
+Technologies Used:
+React.js, TypeScript, JavaScript, CSS, HTML
+
+Purpose: 
+After recently graduating from a 12 week 450 hour immersive software engineering/web dev bootcamp at General Assembly in Seattle, I am now looking for my first role in this field. Creating this page will give a location to share my skills, past projects, and contact information.
+
+Design: 
+
+My initial plan was to keep this as simple as possible. We'll see how that goes. The design should be a single page that loads quickly and is easily readable on mobile devices, but responsive to gain the benefits of a larger screen when available. 
+
+The content should be limited to my contact information, skills, projects, and a brief description of myself. 
+
